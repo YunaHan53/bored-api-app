@@ -85,13 +85,11 @@ function postData(e) {
   const comment = document.getElementById('comment').value
 
 const config = {
-  {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({ name, comment })
-  }
 }
 
   fetch('https://jsonplaceholder.typicode.com/comments', config)
