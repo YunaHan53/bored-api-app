@@ -2,8 +2,8 @@
   "name": "api-app",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://yunahan53.github.io/api-app",
-  "repository": "https://github.com/YunaHan53/api-app.git",
+  "homepage": "https://github.com/YunaHan53/api-app",
+  "repository": "https://github.com/YunaHan53/api-app",
   "author": "YunaH <YunaH503@gmail.com>",
   "license": "MIT",
   "private": false,
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "parcel serve index.html",
-    "build": "parcel build index.html --public-url /dev/",
+    "build": "parcel build index.html --public-url /api-app/",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
   }
