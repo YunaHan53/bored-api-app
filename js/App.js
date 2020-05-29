@@ -1,22 +1,31 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import axios from 'axios'
 
 
 const App = props => {
-//   const [songs, setSongs] = useState([])
-//
-//   useEffect(() => {
-//     axios({
-//       url: `${apiUrl}/songs`,
-//       method: 'GET'
-//     })
-//       .then(res => setSongs(res.data.songs))
-//       .catch()
-//   }, [])
+  const [activity, setActivity] = useState([])
+
+
+  const getActivity = () => {
+    axios({
+      url: "http://www.boredapi.com/api/activity/",
+      method: 'GET'
+    })
+      .then(res => {
+        setActivity(res.data.activity)
+        console.log(res.data.activity)
+      })
+      .catch()
+  }
 
 
   return (
-    <h2>The React Thing</h2>
+    <div>
+      <h2>{activity}</h2>
+      <button onClick={() => getActivity()}>
+        Click me
+      </button>
+    </div>
   )
 }
 
