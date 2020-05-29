@@ -8,7 +8,7 @@ const App = props => {
 
   const getActivity = () => {
     axios({
-      url: "http://www.boredapi.com/api/activity/",
+      url: "https://www.boredapi.com/api/activity/",
       method: 'GET'
     })
       .then(res => {
