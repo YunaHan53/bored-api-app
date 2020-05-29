@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "axios": "^0.19.2",
     "core-js": "^3.6.5",
     "gh-pages": "^2.2.0",
     "react": "^16.13.1",
