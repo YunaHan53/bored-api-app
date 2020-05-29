@@ -30086,7 +30086,7 @@ var App = function App(props) {
 
   var getActivity = function getActivity() {
     (0, _axios.default)({
-      url: "http://www.boredapi.com/api/activity/",
+      url: "https://www.boredapi.com/api/activity/",
       method: 'GET'
     }).then(function (res) {
       setActivity(res.data.activity);
