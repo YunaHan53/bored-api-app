@@ -23,7 +23,7 @@ const App = props => {
     <div>
       <h2>{activity}</h2>
       <button onClick={() => getActivity()}>
-        Click me
+        Bored? Click to see what you can do!
       </button>
     </div>
   )
