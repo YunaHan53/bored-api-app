@@ -20,9 +20,9 @@ const App = props => {
 
 
   return (
-    <div>
+    <div className="container">
       <h2>{activity}</h2>
-      <button onClick={() => getActivity()}>
+      <button className="btn" onClick={() => getActivity()}>
         Bored? Click to see what you can do!
       </button>
     </div>

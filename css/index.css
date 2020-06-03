@@ -1,4 +1,6 @@
 .container {
   display: flex;
   align-content: center;
+  text-align: center;
+  background-color: papayawhip;
 }
