@@ -1,12 +1,25 @@
 #root {
-  display: flex;
-  align-content: center;
   text-align: center;
 }
 
 .container {
   display: flex;
-  align-content: center;
-  text-align: center;
+  justify-content: center;
   background-color: papayawhip;
+}
+
+.box {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.activity {
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.btn {
+  margin-top: 10px;
 }

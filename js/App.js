@@ -20,11 +20,12 @@ const App = props => {
 
 
   return (
-    <div className="container">
-      <h2>{activity}</h2>
-      <button className="btn" onClick={() => getActivity()}>
+    <div className="box">
+      <h1 className="logo">Bored API</h1>
+      <h2 className="activity">{activity}</h2>
+      <p><button className="btn" onClick={() => getActivity()}>
         Bored? Click to see what you can do!
-      </button>
+      </button></p>
     </div>
   )
 }
