@@ -30094,11 +30094,18 @@ var App = function App(props) {
     }).catch();
   };
 
-  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h2", null, activity), /*#__PURE__*/_react.default.createElement("button", {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "box"
+  }, /*#__PURE__*/_react.default.createElement("h1", {
+    className: "logo"
+  }, "Bored API"), /*#__PURE__*/_react.default.createElement("h2", {
+    className: "activity"
+  }, activity), /*#__PURE__*/_react.default.createElement("p", null, /*#__PURE__*/_react.default.createElement("button", {
+    className: "btn",
     onClick: function onClick() {
       return getActivity();
     }
-  }, "Bored? Click to see what you can do!"));
+  }, "Bored? Click to see what you can do!")));
 };
 
 var _default = App;
@@ -30145,7 +30152,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57254" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51692" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
