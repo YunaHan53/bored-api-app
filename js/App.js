@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Button from 'react-bootstrap/Button'
 import axios from 'axios'
 
 
@@ -23,9 +24,9 @@ const App = props => {
     <div className="box">
       <h1 className="logo">Bored API</h1>
       <h2 className="activity">{activity}</h2>
-      <p><button className="btn" onClick={() => getActivity()}>
+      <Button variant="light" className="btn" onClick={() => getActivity()}>
         Bored? Click to see what you can do!
-      </button></p>
+      </Button>
     </div>
   )
 }
