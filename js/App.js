@@ -24,7 +24,7 @@ const App = props => {
     <div className="box">
       <h1 className="logo">Bored API</h1>
       <h2 className="activity">{activity}</h2>
-      <Button variant="light" className="btn" onClick={() => getActivity()}>
+      <Button className="btn" onClick={() => getActivity()}>
         Bored? Click to see what you can do!
       </Button>
     </div>

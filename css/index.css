@@ -22,4 +22,13 @@
 
 .btn {
   margin-top: 10px;
+  padding: 10px;
+  border-color: skyblue;
+  background-color: skyblue;
+  color: white;
+}
+
+.btn:hover {
+  background-color: lightblue;
+  color: white;
 }
