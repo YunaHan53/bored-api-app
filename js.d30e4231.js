@@ -90,4 +90,4 @@ module.exports=require("./lib/axios");
 },{"react":"HdMw","react-bootstrap/Button":"Rlq2","axios":"O4Aa"}],"QvaY":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=u(require("react-dom")),t=u(require("./App.js"));function u(e){return e&&e.__esModule?e:{default:e}}var a=document.getElementById("root");r.default.render(e.default.createElement(t.default,null),a);
 },{"react":"HdMw","react-dom":"X9zx","./App.js":"aeIX"}]},{},["QvaY"], null)
-//# sourceMappingURL=/api-app/js.d30e4231.js.map
+//# sourceMappingURL=/bored-api-app/js.d30e4231.js.map
