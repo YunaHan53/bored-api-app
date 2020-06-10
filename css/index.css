@@ -30,14 +30,14 @@
 
 .activity {
   display: flex;
-  width: 800px;
-  height: 400px;
+  width: 48rem;
+  height: 23rem;
   justify-content: center;
   align-items: center;
   border: 1px solid royalblue;
   background-color: skyblue;
   color: royalblue;
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .btn {
