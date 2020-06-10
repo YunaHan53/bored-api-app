@@ -1,9 +1,9 @@
 {
-  "name": "api-app",
+  "name": "bored-api-app",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://github.com/YunaHan53/api-app",
-  "repository": "https://github.com/YunaHan53/api-app",
+  "homepage": "https://github.com/YunaHan53/bored-api-app",
+  "repository": "https://github.com/YunaHan53/bored-api-app",
   "author": "YunaH <YunaH503@gmail.com>",
   "license": "MIT",
   "private": false,
@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "parcel serve index.html",
-    "build": "parcel build index.html --public-url /api-app/",
+    "build": "parcel build index.html --public-url /bored-api-app/",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
   }
