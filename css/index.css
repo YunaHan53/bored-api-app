@@ -5,30 +5,37 @@
 .container {
   display: flex;
   justify-content: center;
-  background-color: papayawhip;
+  background-color: lightcyan;
+}
+
+.logo {
+  color: royalblue;
 }
 
 .box {
   display: block;
-  align-items: center;
-  justify-content: center;
 }
 
 .activity {
+  display: flex;
   width: 400px;
   height: 200px;
-  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid royalblue;
+  background-color: skyblue;
+  color: royalblue;
 }
 
 .btn {
   margin-top: 10px;
   padding: 10px;
-  border-color: skyblue;
+  border-color: royalblue;
   background-color: skyblue;
-  color: white;
+  color: royalblue;
 }
 
 .btn:hover {
-  background-color: lightblue;
-  color: white;
+  background-color: royalblue;
+  color: lightcyan;
 }
